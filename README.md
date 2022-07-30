@@ -2,7 +2,7 @@
 
 ## build an image for the application then push it to GCR
 
-![14fd19c9-b0cf-49f9-aaf1-ab13000d90f1.png](GCP-Final-Project.png)
+![alt](./GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/14fd19c9-b0cf-49f9-aaf1-ab13000d90f1.png)
 
 ```bash
 gcloud auth configure-docker gcr.io
@@ -37,9 +37,9 @@ terraform plan --var-file infra.tfvars
 terraform apply --var-file infra.tfvars
 ```
 
-![Screenshot from 2022-07-30 04-48-12.png](GCP-Final-Project.png)
+![Screenshot from 2022-07-30 04-48-12.png](GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/Screenshot_from_2022-07-30_04-48-12.png)
 
-![Screenshot from 2022-07-29 22-49-43.png](GCP-Final-Project.png)
+![Screenshot from 2022-07-29 22-49-43.png](GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/Screenshot_from_2022-07-29_22-49-43.png)
 
 ## Install kubctl in vm instance
 
@@ -52,10 +52,10 @@ kubectl version --client
 kubectl version --client --output=yaml
 ```
 
-![Screenshot from 2022-07-29 22-54-52.png](GCP-Final-Project.png)
+![Screenshot from 2022-07-29 22-54-52.png](GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/Screenshot_from_2022-07-29_22-54-52.png)
 
 ## Let’s deploy kubernetes yaml files
 
-![Screenshot from 2022-07-30 04-49-05.png](GCP-Final-Project.png)
+![Screenshot from 2022-07-30 04-49-05.png](GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/Screenshot_from_2022-07-30_04-49-05.png)
 
-![Screenshot from 2022-07-30 04-49-20.png](GCP-Final-Project.png)
+![Screenshot from 2022-07-30 04-49-20.png](GCP-Final-Project%20e0c575796b77428d9a2a6d72509b8c27/Screenshot_from_2022-07-30_04-49-20.png)
