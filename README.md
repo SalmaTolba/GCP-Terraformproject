@@ -30,7 +30,7 @@ Management subnet
 gcloud auth activate-service-account   gcpproject@salma-88782.iam.gserviceaccount.com --project=salma-88782 --key-file="salma-88782-63595c5e2f38.json"
 export GOOGLE_APPLICATION_CREDENTIALS="salma-88782-63595c5e2f38.json"
 ```
-
+Provisioning
 ```bash
 terraform init
 terraform plan --var-file infra.tfvars
