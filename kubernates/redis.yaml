@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis
+        image: gcr.io/salma-88782/pythredimg
         resources:
           limits:
             memory: "128Mi"
